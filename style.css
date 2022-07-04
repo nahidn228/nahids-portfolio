@@ -23,26 +23,47 @@ section {
 .right {
   box-shadow: 10px 10px 40px tomato;
   width: 80%;
-  height: 100%;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
   text-align: center;
-
   background-color: oldlace;
 
-  height: 100%;
-  padding-bottom: 95%;
+  padding-bottom: 55%;
+}
+.button-link {
+  text-decoration: none;
+  background-color: orange;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+#nahid {
+  padding: 10px;
 }
 .main-section {
   padding-bottom: 100px;
 }
+.bg-image {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+}
+#picture {
+  height: 50%;
+  width: 50%;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 700;
 }
 h2 {
   font-size: 30px;
+}
+h3 {
+  color: tomato;
 }
 footer {
   text-align: center;
