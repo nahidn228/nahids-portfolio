@@ -472,12 +472,17 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
   }
-
   .coding-section-text {
     order: 1;
   }
-
   .coding-section-img {
     order: 2;
+  }
+  .inspiration-section {
+    width: 95%;
+  }
+  .youtube-video video {
+    width: 95% !important ;
+    height: auto !important ;
   }
 }
