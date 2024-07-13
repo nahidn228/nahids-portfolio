@@ -413,5 +413,40 @@ footer {
 }
 /* Footer End */
 
-
 /* Responsive Style for Mobile device */
+
+@media screen and (max-width: 576px) {
+  .nav-name{
+    font-size: 18px;
+  font-weight: 800;
+  text-align: left;
+  }
+  .nav-section {
+    padding: 10px;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 110px;
+    
+  }
+  .nav-btn {
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+  font-weight: 600;
+  line-height: 0px;
+  }
+
+  .hero-body {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .hero-body img {
+    margin: 25px 0 30px 0;
+  }
+}
