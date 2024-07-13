@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+.btn {
+  width: 149px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  cursor: pointer;
+
+  /* font style */
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.btn a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+}
+
+/* header start from here */
+header {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 0 100px;
+  margin-bottom: 30px;
+}
+
+.nav-name {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: left;
+}
+.nav-btn {
+  /* Button style */
+  width: 228px;
+  height: 58px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
+  /* btn text style */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* header End */
+/* Hero section start from here */
+.hero-section {
+  background-image: url("../images/Hero-bg.png");
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.hero-body {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-body img {
+  margin: 25px 0 30px 0;
+}
+
+.hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  margin-bottom: 24px;
+}
+
+.hero-content {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  align-items: center;
+  padding: 15px 20px 15px 20px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  cursor: pointer;
+
+  /* font style */
+
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.hero-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* Hero section End */
+
+/* Web Development section start from here */
+.development-section {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.development-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.development-content {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+/* Web Development section End */
+/* Card section start from here */
+.card-section {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+/* Coding section start from here */
+.coding-section {
+  display: flex;
+  gap: 90px;
+  padding: 40px;
+  margin-bottom: 32px;
+}
+.coding-section-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.coding-section-subtitle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+/* Card section End */
+/* inspiration section start from here */
+.inspiration-section {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.inspiration-section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.inspiration-section-subtitle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.youtube-video video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin: 10px 0px;
+}
+/* inspiration section End */
+/* Target section start from here */
+.target-section {
+  text-align: center;
+}
+.target-text {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.target-content {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.target-section-cards {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.target-card {
+  width: 300px;
+  height: 250px;
+  align-items: left;
+  text-align: left;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-card-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 30px 0 10px 0;
+}
+.target-card-subtitle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.target-card img {
+  width: 56px;
+  height: 56px;
+}
+.target-card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* Target section End */
+/* Next Target section Start */
+.next-target {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.next-target-card {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+.next-target-img img {
+  width: 110px;
+  height: 100px;
+}
+.next-target-text {
+  text-align: left;
+}
+.next-target-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.next-target-subtitle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.next-target-text a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* Target section End */
+/* Support section Start */
+.support-section {
+  background-image: linear-gradient(
+      rgba(14, 14, 14, 0.388),
+      rgba(17, 17, 17, 0.704),
+      rgba(0, 0, 0, 0.267)
+    ),
+    url("../images/handshake.jpg");
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: 1000px 350px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.support-section-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.support-section-subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+.support-input {
+  margin: 35px;
+}
+#input-text {
+  width: 500px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+
+  /* font style */
+
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+#support-button {
+  width: 100px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+
+  /* font style */
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px;
+}
+/* Support section End */
+/* Footer section start */
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-section {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 32px 150px;
+}
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.footer-section a {
+  text-decoration: none;
+}
+/* Footer End */
+
+
+/* Responsive Style for Mobile device */
