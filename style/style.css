@@ -441,7 +441,8 @@ footer {
   .hero-body {
     width: 90%;
   }
-  .hero-title {
+  .hero-title,
+  .development-title {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -451,7 +452,19 @@ footer {
     height: 200px;
     width: 200px;
   }
-  .hero-btn{
+  .hero-btn {
     padding: 10px 15px;
+  }
+
+  .card-section,
+  .development-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .development-content {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 40px;
   }
 }
