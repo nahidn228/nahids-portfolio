@@ -394,7 +394,6 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
   border-radius: 16px;
-
   background: rgba(13, 19, 33, 0.03);
 }
 .footer-section {
@@ -407,7 +406,6 @@ footer {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 700;
-  line-height: 23px;
 }
 .footer-section a {
   text-decoration: none;
@@ -520,8 +518,29 @@ footer {
 
     padding: 0;
   }
-  #input-text{
+  #input-text {
     width: 90%;
     margin-bottom: 10px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-title {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footer-a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
   }
 }
