@@ -215,6 +215,7 @@ header {
 /* inspiration section End */
 /* Target section start from here */
 .target-section {
+  width: 95%;
   text-align: center;
 }
 .target-text {
@@ -290,7 +291,7 @@ header {
 }
 .next-target-img img {
   width: 110px;
-  height: 100px;
+  height: auto;
 }
 .next-target-text {
   text-align: left;
@@ -484,5 +485,33 @@ footer {
   .youtube-video video {
     width: 95% !important ;
     height: auto !important ;
+  }
+  .target-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .target-section-cards {
+    width: 95%;
+    flex-direction: column;
+  }
+  .target-card {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  .next-target {
+    width: 90%;
+    padding: 10px;
+  }
+  .target-section-text {
+    width: 85%;
+  }
+  .target-text {
+    font-size: 25px;
+  }
+  .next-target-card{
+    flex-direction: column;
   }
 }
